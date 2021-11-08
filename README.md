@@ -2,9 +2,16 @@
 
 Demo Code for refining person re-identification model under label noise used in [1] and [2].
 
+## Highlight
+
+The goal of this work is to learn a robust Re-ID model against different noise types. We introduce an online co-refining (CORE) framework with dynamic mutual learning, where networks and label predictions are online optimized collaboratively by distilling the knowledge from other peer networks.
+
+<img src="./fig/core.png" width="600">
+
+
 ### 1. Prepare the Dataset
 
-Note that the demo code use a re-oganized file structure so that the code can be seamlessly applied on three datasets, including Market1501 [3], Duke-MTMC [4] and CUHK03 [5] datasets. The detailed description can be found in this [website](https://github.com/layumi/Person_reID_baseline_pytorch#dataset--preparation).
+Note that the demo code use a re-oganized file structure so that the code can be seamlessly applied on three datasets, including Market1501, Duke-MTMC and CUHK03 datasets. The detailed description can be found in this [website](https://github.com/layumi/Person_reID_baseline_pytorch#dataset--preparation).
 
 ```
 training/
